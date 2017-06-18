@@ -23,10 +23,15 @@ for el in x:
         res.append(date(year=int(e[0:4]), month=int(e[4:6]), day=int(e[6:8])))
         
 c.execute("SELECT prod from diligence")
-y = c.fetchall()
+y1 = c.fetchall()
+
+c.execute("SELECT worth from diligence")
+y2 = c.fetchall()
+
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
 plt.gca().xaxis.set_major_locator(mdates.DayLocator())
-plt.plot(res, y)
+plt.plot(res, y1)
+plt.plot(res, y2)
 plt.gcf().autofmt_xdate()
 plt.show()
 
