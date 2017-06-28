@@ -1,6 +1,6 @@
 # Diligence
 
-Two simple scripts that are used to store data and plot graphs that help in analyzing how diligent one has been with their time.
+  Two simple scripts that are used to store data and plot graphs that help in analyzing how diligent one has been with their time.
 
 ## Motivation
 
@@ -10,8 +10,8 @@ Two simple scripts that are used to store data and plot graphs that help in anal
 
 ## Installations
 
-You will need matplotlib to run the following scripts.
+  You will need matplotlib to run the following scripts.
 
 ## License
 
-MIT License
+  MIT License
